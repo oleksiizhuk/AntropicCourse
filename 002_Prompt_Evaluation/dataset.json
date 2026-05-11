@@ -1,14 +1,17 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract only the bucket name",
-    "format": "regex"
+    "task": "Parse an AWS CloudFormation template to extract all resource logical IDs and their types",
+    "format": "python",
+    "solution_criteria": "Function should accept a CloudFormation JSON string and return a dictionary mapping logical IDs to resource types. Must handle nested resources correctly."
   },
   {
-    "task": "Create a JSON policy document that allows read-only access to a specific AWS S3 bucket for an IAM user",
-    "format": "json"
+    "task": "Create a JSON policy document that allows an IAM role to read and list objects from a specific S3 bucket",
+    "format": "json",
+    "solution_criteria": "Valid IAM policy JSON with correct Action statements (s3:GetObject, s3:ListBucket), Resource ARNs for the bucket and objects, and proper Effect set to 'Allow'."
   },
   {
-    "task": "Write a Python function that takes an AWS CloudWatch log message timestamp in milliseconds and converts it to a human-readable ISO 8601 format string",
-    "format": "python"
+    "task": "Write a regex pattern to validate and extract AWS EC2 instance IDs from log files",
+    "format": "regex",
+    "solution_criteria": "Pattern must match valid EC2 instance ID format (i- followed by 17 alphanumeric characters), capture the full instance ID, and avoid false positives on similar-looking strings."
   }
 ]
