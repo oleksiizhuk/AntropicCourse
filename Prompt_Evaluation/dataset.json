@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens only, must start and end with letter or number)"
+    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract only the bucket name",
+    "format": "regex"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a trust policy allowing EC2 instances to assume it"
+    "task": "Create a JSON policy document that allows read-only access to a specific AWS S3 bucket for an IAM user",
+    "format": "json"
   },
   {
-    "task": "Write a regular expression that matches valid AWS ARN (Amazon Resource Name) formats, such as 'arn:aws:s3:::my-bucket' or 'arn:aws:iam::123456789012:role/MyRole'"
+    "task": "Write a Python function that takes an AWS CloudWatch log message timestamp in milliseconds and converts it to a human-readable ISO 8601 format string",
+    "format": "python"
   }
 ]
