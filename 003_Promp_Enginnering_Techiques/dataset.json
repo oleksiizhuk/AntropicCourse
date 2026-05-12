@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high caloric intake with carbohydrate loading for endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals/snacks distributed throughout the day",
+      "Macronutrient composition emphasizes carbohydrates (55-65% of calories) appropriate for endurance athlete",
+      "Total daily caloric intake aligns with marathon training requirements (approximately 2,800-3,200 calories)",
+      "Includes specific foods and portions that are realistic and practical for a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, focusing on whether the meal plan balances macronutrients appropriately for endurance sports"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "muscle gain and strength performance with optimal recovery",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan is structured for 1 day with clear meal timing around workout window",
+      "Provides adequate protein distribution (minimum 1.6-2.2g per kg bodyweight) across meals to support muscle recovery",
+      "Includes pre-workout and post-workout nutrition strategically timed for performance and recovery",
+      "Plan is compact and concise (suitable for quick reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (weightlifter) with specific protein requirements and meal timing around workout windows, verifying the plan supports muscle recovery and performance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "72",
+      "goal": "endurance training for marathon preparation",
+      "restrictions": "vegan"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and includes snacks appropriate for endurance athletes",
+      "All meals and snacks are vegan-compliant with no animal products",
+      "Adequate protein intake from plant-based sources to support muscle recovery",
+      "Includes carbohydrates and healthy fats suitable for marathon training energy needs"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete with dietary restrictions (vegetarian/vegan) to ensure the meal plan remains nutritionally complete and sport-appropriate while accommodating ethical or health-based food choices"
+  }
+]
